@@ -20,3 +20,19 @@ local Window = WindUI:CreateWindow({
 })
 
 
+local Inz = Window:Tab({
+    Title = "Main",
+    Desc = "idk", -- optional
+    Icon = "bird", -- lucide icon or "rbxassetid://" or URL. optional
+    IconColor = Color3.fromRGB(255, 100, 100), -- custom icon color. optional
+    IconShape = "Square", -- "Square" or "Circle". optional
+    IconThemed = true, -- use theme colors. optional
+    Locked = false, -- disable tab interaction. optional
+    ShowTabTitle = false, -- show title inside tab. optional
+    Border = true, -- add border around tab. optional
+    CustomEmptyPage = { -- custom empty page when no elements are added to the tab. optional
+		Icon = "lucide:smile", -- icon for empty page. optional
+		Title = "This is a cool empty tab", -- title for empty page. optional
+		Desc = "I like it. its so great tab with cool 'custom empty page'", -- description for empty page. optional
+	},
+})
