@@ -7,7 +7,7 @@ local Window = WindUI:CreateWindow({
     Author = "Script For Fun", -- window subtitle. optional
     Folder = "Synora_1", -- folder to save keys and images
  
-    BackgroundImageTransparency = 0.29, -- background image transparency
+    BackgroundImageTransparency = 0, -- background image transparency
     Background = "rbxassetid://7903531742", -- rbxassetid
     
     User = { -- user information located at the bottom left
