@@ -3,7 +3,7 @@ local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/rel
 
 local Window = WindUI:CreateWindow({
     Title = "Synora", -- window title
-    Icon = "https://raw.githubusercontent.com/KHAFIDZ657/Synora/refs/heads/main/Src/Icon.png", -- lucide icon or "rbxassetid://" or URL. optional
+    Icon = "crown", -- lucide icon or "rbxassetid://" or URL. optional
     Author = "Script For Fun", -- window subtitle. optional
     Folder = "Synora_1", -- folder to save keys and images
  
