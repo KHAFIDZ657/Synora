@@ -21,10 +21,10 @@ local Window = WindUI:CreateWindow({
 
 
 local Inz = Window:Tab({
-    Title = "Main",
-    Desc = "idk", -- optional
-    Icon = "bird", -- lucide icon or "rbxassetid://" or URL. optional
-    IconColor = Color3.fromRGB(255, 100, 100), -- custom icon color. optional
+    Title = "Script",
+    Desc = "All Scripts", -- optional
+    Icon = "sparkles", -- lucide icon or "rbxassetid://" or URL. optional
+    IconColor = Color3.fromRGB(255, 255, 255), -- custom icon color. optional
     IconShape = "Square", -- "Square" or "Circle". optional
     IconThemed = true, -- use theme colors. optional
     Locked = false, -- disable tab interaction. optional
